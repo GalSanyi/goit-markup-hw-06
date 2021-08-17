@@ -294,7 +294,8 @@ h2.text {
   padding: 6px 22px;
   border-radius: 4px;
   margin-right: 8px;
-  transition: background 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
+  transition: background 250ms var(--timing-function),
+    color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
 .desc-list button:hover,
@@ -303,9 +304,7 @@ h2.text {
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
     0px 2px 2px rgb(0 0 0 / 12%);
-  
 }
-
 
 .subtitle-text {
   display: flex;
@@ -466,7 +465,7 @@ h2.text {
 .pic-link {
   display: block;
   text-decoration: none;
-  transition:  box-shadow 250ms var(--timing-function);
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .pic-link:hover,
@@ -591,7 +590,10 @@ h2.text {
   transition: fill 250ms var(--timing-function);
 }
 
-/* company */
+/*************************
+           company 
+ *****************************/
+
 .section-company {
   padding: 94px 0 94px 0;
 }
@@ -732,4 +734,23 @@ h2.text {
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/**************************
+***************************
+***************************
+ ******* Modal form********* 
+ ***************************
+ ****************************/
+.modal {
+  margin: 0 auto;
+}
+.modal h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
 }
