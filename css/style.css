@@ -740,7 +740,7 @@ h2.text {
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-transition: fill 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .close-icon:hover,
@@ -774,7 +774,6 @@ transition: fill 250ms var(--timing-function);
   width: 448px;
   height: 40px;
   transition: border 250ms var(--timing-function);
-
 }
 
 .form-icon {
@@ -790,10 +789,9 @@ transition: fill 250ms var(--timing-function);
   top: 0;
   left: 0;
 }
- .form-input:hover,
- .form-input:focus  {
+.form-input:hover,
+.form-input:focus {
   border-color: var(--accent-color);
- 
 }
 .form-icon:hover > .icon,
 .form-icon:focus > .icon {
@@ -804,10 +802,8 @@ transition: fill 250ms var(--timing-function);
  fill: var(--accent-color);
 } */
 .form-field:focus-within .icon {
- fill: var(--accent-color);
-
+  fill: var(--accent-color);
 }
-
 
 /* .form-field .form-field-lable {
   margin-bottom: 4px;
@@ -819,7 +815,6 @@ textarea {
   border-radius: 4px;
   resize: none;
 }
-
 
 .form-field input::placeholder {
   font-size: 14px;
@@ -914,7 +909,6 @@ textarea {
   margin-left: 10px;
 }
 
-
 /* ****************************
 **********Chekbox**********
 *******************************
@@ -922,24 +916,21 @@ textarea {
 
 .checkbox {
   -webkit-appearance: none;
- 
 }
-
 
 .icon-check {
   display: inline-block;
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 15px;
- border: 2px solid #212121;
- border-radius: 4px;
-
- 
-
+  border: 2px solid #212121;
+  border-radius: 4px;
+  margin-right: 10px;
 }
 
 .checkbox:checked + .icon-check {
   background-color: var(--accent-color);
   background-image: url(../images/icon-check.svg);
+  border-color: var(--accent-color);
 }
