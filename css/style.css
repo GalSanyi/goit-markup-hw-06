@@ -921,16 +921,27 @@ textarea {
 .icon-check {
   display: inline-block;
   content: "";
-  position: absolute;
   width: 15px;
   height: 15px;
   border: 2px solid #212121;
   border-radius: 4px;
-  margin-right: 10px;
+  
 }
+.check-text {
+  font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var( --title-text-color);
 
+}
 .checkbox:checked + .icon-check {
   background-color: var(--accent-color);
   background-image: url(../images/icon-check.svg);
   border-color: var(--accent-color);
+  background-size: contain;
+  /* background-origin: border-box; */
+}
+
+.checkbox-labele {
+  margin-bottom: 30px;
 }
