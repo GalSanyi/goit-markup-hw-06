@@ -907,6 +907,10 @@ textarea {
 .icon-form {
   margin-left: 10px;
 }
+.form-field-lable {
+  margin-bottom: 4px;
+  color: var( --title-text-color);
+}
 
 /* ****************************
 **********Chekbox**********
@@ -938,9 +942,15 @@ color: var( --title-text-color);
   background-image: url(../images/icon-check.svg);
   border-color: var(--accent-color);
   background-size: contain;
+  background-repeat: no-repeat;
+  
   /* background-origin: border-box; */
 }
 
 .checkbox-labele {
   margin-bottom: 30px;
+}
+
+.lable:focus {
+  border-color: orangered;
 }
