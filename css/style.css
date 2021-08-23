@@ -951,6 +951,6 @@ color: var( --title-text-color);
   margin-bottom: 30px;
 }
 
-.lable:focus {
-  border-color: orangered;
+.checkbox:focus + .icon-check {
+  border-color: var(--accent-color);
 }
