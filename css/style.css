@@ -761,9 +761,12 @@ h2.text {
 }
 
 .form-field {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+}
+.form-textarea {
+  margin-bottom: 20px;
 }
 .form-field .form-input {
   margin: 0;
